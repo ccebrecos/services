@@ -24,7 +24,7 @@ chown $USER:$USER $INSTALLATION_FOLDER -R
 rm -fr $LATEST_FILE teamspeak3-server_linux-amd64
 
 #Adding the service script
-move ts3 /etc/init.d/ts3
+mv ts3 /etc/init.d/ts3
 
 #Changing permisions
 chmod a+x /etc/init.d/ts3
